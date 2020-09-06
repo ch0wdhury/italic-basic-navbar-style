@@ -1,0 +1,124 @@
+html, body {
+	overflow-x: hidden;
+	background: #f2f2f2;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	transition: .5s ease;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/* Homepage Navbar Section Starts Here */
+header {
+	min-height: 100px;
+}
+.custom-navbar {
+	transition: .5s all ease;
+}
+input {
+	outline: none;
+}
+input[type=search] {
+	position: absolute;
+	top: 10px;
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+	background-color: #fff;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+input[type=search] {
+	background: #fff url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 5px;
+	width: 55px;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+	z-index: 99;
+}
+input[type=search]:focus .nav-item-hide {
+	display: none;
+}
+.red {
+	background-color: #fff;
+	transition: .4s all ease;
+	border-bottom: 1px solid #f2f2f2;
+}
+.white {
+	color: #000!important;
+	transition: .5s all ease;
+}
+.change-to-btn {
+	border: 1px solid #fff;
+}
+.button-style {
+	color: #fff!important;
+	background-color: #000;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+}
+.nav-hide {
+	visibility: hidden;
+}
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 20px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+	background-color: #fff;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 250px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+	z-index: 99;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: black;
+	padding-left: 20px;
+}
+.dropdown:hover>.dropdown-menu {
+  	display: block;
+  	transition: all 0.4s ease-in-out;
+}
+.dropdown-menu>li>a {
+  	display: inline;
+  	color: #000;
+  	transition: all 0.4s ease-in-out;
+}
+.dropdown-menu {
+	position: absolute;
+	right: 0;
+	min-width: 500px;
+	border: none;
+	background-color: transparent;
+	color: #000!important;
+	padding-top: 15px;
+	transition: all 0.4s ease-in-out;
+	overflow: hidden;
+}
+.nav-item a:hover {
+	color: black!important;
+}
+/* Homepage Navbar Section Ends Here */
